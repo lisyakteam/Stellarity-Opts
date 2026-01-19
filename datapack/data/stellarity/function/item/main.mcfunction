@@ -1,5 +1,5 @@
 # Dragonblade
-  execute as @e[type=!#kohara:invalid_targets,scores={stellarity.item.dragonblade.until_punch_reset=1..}] run function stellarity:item/dragonblade/punch/progress_reset_countdown
+execute if score opt-timer stellarity.misc matches 1 as @e[type=!#kohara:invalid_targets,scores={stellarity.item.dragonblade.until_punch_reset=1..}] run function stellarity:item/dragonblade/punch/progress_reset_countdown
 
 # Sharanga & Call of The Void
   execute as @e[type=#minecraft:arrows,tag=stellarity.arrow] at @s run function stellarity:loop/projectile_loop

@@ -24,3 +24,7 @@ execute as @e[type=item,tag=stellarity.item] at @s run function stellarity:loop/
 
 
 execute as @e[type=minecraft:end_crystal,predicate=stellarity:entity/dragon/exit_portal_crystal] at @s run function stellarity:structure/exit_portal/replace
+
+# Timer to execute some functions once per second
+scoreboard players add opt-timer stellarity.misc 1
+execute if score opt-timer stellarity.misc matches 20.. run scoreboard players set opt-timer stellarity.misc 0
