@@ -17,7 +17,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.conqueror"
+      "translate": "advancements.stellarity.conqueror",
+      "fallback": "Conqueror"
     },
     "description": [
       {

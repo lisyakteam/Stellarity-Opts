@@ -8,7 +8,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.i_am_titanium"
+      "translate": "advancements.stellarity.i_am_titanium",
+      "fallback": "I am Titanium!"
     },
     "description": [
       {
@@ -86,10 +87,18 @@
     }
   },
   "requirements": [
-    ["shulker_boots"],
-    ["shulker_leggings"],
-    ["shulker_chestplate"],
-    ["shulker_helmet"]
+    [
+      "shulker_boots"
+    ],
+    [
+      "shulker_leggings"
+    ],
+    [
+      "shulker_chestplate"
+    ],
+    [
+      "shulker_helmet"
+    ]
   ],
   "rewards": {
     "experience": 150

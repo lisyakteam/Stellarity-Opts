@@ -4,7 +4,8 @@
       "id": "minecraft:cauldron"
     },
     "title": {
-      "translate": "advancements.stellarity.dilute_breath"
+      "translate": "advancements.stellarity.dilute_breath",
+      "fallback": "Little Alchemy"
     },
     "description": [
       {
@@ -28,5 +29,9 @@
       "conditions": {}
     }
   },
-  "requirements": [["dilute_breath"]]
+  "requirements": [
+    [
+      "dilute_breath"
+    ]
+  ]
 }

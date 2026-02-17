@@ -4,7 +4,8 @@
       "id": "minecraft:end_crystal"
     },
     "title": {
-      "translate": "advancements.stellarity.crystal_crusher"
+      "translate": "advancements.stellarity.crystal_crusher",
+      "fallback": "Crystal Crusher"
     },
     "description": [
       {

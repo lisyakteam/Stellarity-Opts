@@ -4,7 +4,8 @@
       "id": "minecraft:shulker_shell"
     },
     "title": {
-      "translate": "advancements.stellarity.kill_shulker"
+      "translate": "advancements.stellarity.kill_shulker",
+      "fallback": "This Block Moves!"
     },
     "description": [
       {

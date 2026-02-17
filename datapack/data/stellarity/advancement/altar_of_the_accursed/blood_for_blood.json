@@ -7,7 +7,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.blood_for_blood"
+      "translate": "advancements.stellarity.blood_for_blood",
+      "fallback": "Blood for Blood"
     },
     "description": [
       {

@@ -7,7 +7,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.postmortal_2"
+      "translate": "advancements.stellarity.postmortal_2",
+      "fallback": "Overconfident"
     },
     "description": [
       {
@@ -41,12 +42,18 @@
           }
         },
         "item": {
-          "items": ["minecraft:totem_of_undying"]
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
         }
       }
     }
   },
-  "requirements": [["used_totem"]],
+  "requirements": [
+    [
+      "used_totem"
+    ]
+  ],
   "rewards": {
     "experience": 50
   }

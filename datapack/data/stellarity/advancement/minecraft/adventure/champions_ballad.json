@@ -4,7 +4,8 @@
       "id": "minecraft:jukebox"
     },
     "title": {
-      "translate": "advancements.stellarity.champions_ballad"
+      "translate": "advancements.stellarity.champions_ballad",
+      "fallback": "Champions Ballad"
     },
     "description": [
       {
@@ -52,5 +53,9 @@
       }
     }
   },
-  "requirements": [["play_jukebox_in_the_end"]]
+  "requirements": [
+    [
+      "play_jukebox_in_the_end"
+    ]
+  ]
 }

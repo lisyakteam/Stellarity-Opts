@@ -8,7 +8,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.hallelujah"
+      "translate": "advancements.stellarity.hallelujah",
+      "fallback": "Hallelujah!"
     },
     "description": [
       {

@@ -4,7 +4,8 @@
       "id": "minecraft:ender_dragon_spawn_egg"
     },
     "title": {
-      "translate": "advancements.stellarity.third_times_the_charm"
+      "translate": "advancements.stellarity.third_times_the_charm",
+      "fallback": "Third Time's the Charm"
     },
     "description": [
       {

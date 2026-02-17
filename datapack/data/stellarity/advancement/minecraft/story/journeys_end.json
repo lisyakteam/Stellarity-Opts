@@ -4,7 +4,8 @@
       "id": "minecraft:end_portal_frame"
     },
     "title": {
-      "translate": "advancements.stellarity.journeys_end"
+      "translate": "advancements.stellarity.journeys_end",
+      "fallback": "Journey's End"
     },
     "description": [
       {

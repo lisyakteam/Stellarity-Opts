@@ -8,7 +8,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.poor_life_choices"
+      "translate": "advancements.stellarity.poor_life_choices",
+      "fallback": "Poor Life Choices"
     },
     "description": [
       {
@@ -32,7 +33,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": ["minecraft:sweet_berries"],
+          "items": [
+            "minecraft:sweet_berries"
+          ],
           "components": {
             "minecraft:custom_data": {
               "stellarity:item": "duskberry"
@@ -45,7 +48,9 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": ["minecraft:sweet_berries"],
+          "items": [
+            "minecraft:sweet_berries"
+          ],
           "components": {
             "minecraft:custom_data": {
               "stellarity:item": "duskberry"
@@ -64,7 +69,9 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": ["minecraft:sweet_berries"],
+              "items": [
+                "minecraft:sweet_berries"
+              ],
               "components": {
                 "minecraft:custom_data": {
                   "stellarity:item": "duskberry"
@@ -76,5 +83,15 @@
       }
     }
   },
-  "requirements": [["plant_duskberry"], ["eat_duskberry"], ["feed_duskberry"]]
+  "requirements": [
+    [
+      "plant_duskberry"
+    ],
+    [
+      "eat_duskberry"
+    ],
+    [
+      "feed_duskberry"
+    ]
+  ]
 }

@@ -4,7 +4,8 @@
       "id": "minecraft:ender_pearl"
     },
     "title": {
-      "translate": "advancements.stellarity.obtain_ender_pearl"
+      "translate": "advancements.stellarity.obtain_ender_pearl",
+      "fallback": "Eye of Darkness"
     },
     "description": [
       {
@@ -29,13 +30,17 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:ender_pearl"]
+            "items": [
+              "minecraft:ender_pearl"
+            ]
           }
         ]
       }
     }
   },
   "rewards": {
-    "recipes": ["minecraft:ender_eye"]
+    "recipes": [
+      "minecraft:ender_eye"
+    ]
   }
 }

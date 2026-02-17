@@ -4,7 +4,8 @@
       "id": "minecraft:blaze_powder"
     },
     "title": {
-      "translate": "advancements.stellarity.craft_ender_eye"
+      "translate": "advancements.stellarity.craft_ender_eye",
+      "fallback": "Strengthened by Fire"
     },
     "description": [
       {
@@ -29,7 +30,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:ender_eye"]
+            "items": [
+              "minecraft:ender_eye"
+            ]
           }
         ]
       }

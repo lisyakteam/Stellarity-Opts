@@ -51,7 +51,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.electrified"
+      "translate": "advancements.stellarity.electrified",
+      "fallback": "Electrified!"
     },
     "description": [
       {
@@ -74,5 +75,9 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "requirements": [["dash"]]
+  "requirements": [
+    [
+      "dash"
+    ]
+  ]
 }

@@ -7,7 +7,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.keep_warm"
+      "translate": "advancements.stellarity.keep_warm",
+      "fallback": "Keep Warm!"
     },
     "description": [
       {
@@ -36,16 +37,24 @@
             "predicate": {
               "equipment": {
                 "head": {
-                  "items": ["minecraft:leather_helmet"]
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ]
                 },
                 "chest": {
-                  "items": ["minecraft:leather_chestplate"]
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ]
                 },
                 "legs": {
-                  "items": ["minecraft:leather_leggings"]
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ]
                 },
                 "feet": {
-                  "items": ["minecraft:leather_boots"]
+                  "items": [
+                    "minecraft:leather_boots"
+                  ]
                 }
               }
             }
@@ -60,5 +69,9 @@
       }
     }
   },
-  "requirements": [["keep_warm"]]
+  "requirements": [
+    [
+      "keep_warm"
+    ]
+  ]
 }

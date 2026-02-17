@@ -7,7 +7,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.charge_anchor_end"
+      "translate": "advancements.stellarity.charge_anchor_end",
+      "fallback": "Anchored"
     },
     "description": [
       {
@@ -36,19 +37,27 @@
             "predicate": {
               "dimension": "minecraft:the_end",
               "block": {
-                "blocks": ["minecraft:respawn_anchor"]
+                "blocks": [
+                  "minecraft:respawn_anchor"
+                ]
               }
             }
           },
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": ["minecraft:glowstone"]
+              "items": [
+                "minecraft:glowstone"
+              ]
             }
           }
         ]
       }
     }
   },
-  "requirements": [["charge_respawn_anchor"]]
+  "requirements": [
+    [
+      "charge_respawn_anchor"
+    ]
+  ]
 }

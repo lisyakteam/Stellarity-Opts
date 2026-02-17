@@ -8,7 +8,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.find_end_village"
+      "translate": "advancements.stellarity.find_end_village",
+      "fallback": "Stranded in The Sea of Eternity"
     },
     "description": [
       {

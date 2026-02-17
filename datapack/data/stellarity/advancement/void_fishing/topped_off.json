@@ -9,6 +9,7 @@
     },
     "title": {
       "translate": "advancements.stellarity.topped_off",
+      "fallback": "Topped Off",
       "color": "#FF65D7"
     },
     "description": [

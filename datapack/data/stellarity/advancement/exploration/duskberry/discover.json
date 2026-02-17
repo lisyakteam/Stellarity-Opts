@@ -8,7 +8,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.duskberry_find"
+      "translate": "advancements.stellarity.duskberry_find",
+      "fallback": "Don't Bush Your Luck!"
     },
     "description": [
       {
@@ -33,7 +34,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:sweet_berries"],
+            "items": [
+              "minecraft:sweet_berries"
+            ],
             "components": {
               "minecraft:custom_data": {
                 "stellarity:item": "duskberry"

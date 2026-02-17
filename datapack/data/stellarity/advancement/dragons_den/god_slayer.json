@@ -7,7 +7,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.god_slayer"
+      "translate": "advancements.stellarity.god_slayer",
+      "fallback": "God Slayer"
     },
     "description": [
       {

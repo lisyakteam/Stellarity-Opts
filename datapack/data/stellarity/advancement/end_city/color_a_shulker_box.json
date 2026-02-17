@@ -4,7 +4,8 @@
       "id": "minecraft:light_blue_shulker_box"
     },
     "title": {
-      "translate": "advancements.stellarity.color_a_shulker_box"
+      "translate": "advancements.stellarity.color_a_shulker_box",
+      "fallback": "Organizational Wizard"
     },
     "description": [
       {
@@ -34,5 +35,9 @@
       }
     }
   },
-  "requirements": [["color_shulker_box"]]
+  "requirements": [
+    [
+      "color_shulker_box"
+    ]
+  ]
 }

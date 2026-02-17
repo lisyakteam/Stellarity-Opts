@@ -4,7 +4,8 @@
       "id": "minecraft:end_crystal"
     },
     "title": {
-      "translate": "advancements.stellarity.sacrificial_ritual"
+      "translate": "advancements.stellarity.sacrificial_ritual",
+      "fallback": "Sacrificial Ritual"
     },
     "description": [
       {

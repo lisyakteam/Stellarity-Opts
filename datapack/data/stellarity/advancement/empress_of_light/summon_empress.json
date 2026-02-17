@@ -7,7 +7,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.summon_empress"
+      "translate": "advancements.stellarity.summon_empress",
+      "fallback": "The Queen of Flickering Lights"
     },
     "description": [
       {

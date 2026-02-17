@@ -7,7 +7,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.altar_of_the_accursed_intro"
+      "translate": "advancements.stellarity.altar_of_the_accursed_intro",
+      "fallback": "An Introduction to Dark Magic"
     },
     "description": [
       {

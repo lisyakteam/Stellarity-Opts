@@ -8,7 +8,8 @@
       }
     },
     "title": {
-      "translate": "advancements.stellarity.absolute_devotion"
+      "translate": "advancements.stellarity.absolute_devotion",
+      "fallback": "Absolute Devotion"
     },
     "description": [
       {
@@ -43,7 +44,11 @@
       }
     }
   },
-  "requirements": [["shulker_hoe"]],
+  "requirements": [
+    [
+      "shulker_hoe"
+    ]
+  ],
   "rewards": {
     "experience": 150
   }
