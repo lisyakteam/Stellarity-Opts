@@ -42,4 +42,4 @@
               function stellarity:item/starless_scythe/enchant_interactions/cripple/apply_slowdown
 
             # Heal
-              function stellarity:item/starless_scythe/heal
+              execute if score opt-timer stellarity.misc matches 1 function stellarity:item/starless_scythe/heal

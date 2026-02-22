@@ -9,8 +9,8 @@
   execute if entity @s[scores={stellarity.item.spirit_dagger.until_consume_reset=1..}] run function stellarity:item/spirit_dagger/charge/reset_countdown
 
 # Ender Insignia
-  execute if entity @s[predicate=stellarity:item/life_crystal_can_heal] run function stellarity:item/life_crystal/heal
-  execute if entity @s[tag=stellarity.life_crystal.active,predicate=!stellarity:item/life_crystal_can_heal] run function stellarity:item/life_crystal/stop
+  execute if score opt-timer stellarity.misc matches 1 if entity @s[predicate=stellarity:item/life_crystal_can_heal] run function stellarity:item/life_crystal/heal
+  execute if score opt-timer stellarity.misc matches 1 if entity @s[tag=stellarity.life_crystal.active,predicate=!stellarity:item/life_crystal_can_heal] run function stellarity:item/life_crystal/stop
 
 # Tamaris
   execute if entity @s[predicate=stellarity:item/holding/tamaris] if entity @n[type=!#kohara:invalid_targets,distance=0.01..10,tag=stellarity.item.tamaris.executable] run function stellarity:item/tamaris/holding_loop

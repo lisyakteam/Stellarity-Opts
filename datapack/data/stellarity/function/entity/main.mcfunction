@@ -26,7 +26,7 @@ execute as @e[type=item_display,tag=stellarity.shulking.spike] at @s run functio
 execute if score opt-timer stellarity.misc matches 1 as @e[type=#stellarity:end_variant_animals,tag=!smithed.entity,nbt={variant:"stellarity:end"}] run function stellarity:entity/animal/convert
 execute as @e[type=sheep,tag=!stellarity.invalid_animal,tag=!smithed.entity] at @s run function stellarity:entity/animal/convert_sheep
 
-execute as @e[tag=stellarity.shulking.body] at @s run bossbar set stellarity:shulking players @a[distance=..64]
+execute if score opt-timer stellarity.misc matches 2 as @e[tag=stellarity.shulking.body] at @s run bossbar set stellarity:shulking players @a[distance=..64]
 execute unless entity @e[tag=stellarity.shulking.body] run bossbar set stellarity:shulking players
 
 execute as @e[type=item_display,tag=stellarity.shulking.ray] at @s run function stellarity:entity/shulking/attacks/ray/loop with entity @s data."stellarity:owner"
